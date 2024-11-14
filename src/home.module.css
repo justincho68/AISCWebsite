@@ -1,0 +1,46 @@
+/* home.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+.container {
+    display: flex;
+    padding: 71.5px 112px;
+    width: 100%;
+    height: 200px;
+}
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 71.5px 112px 0px;
+    width: 100%;
+    height: 200px;
+}
+.largercontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.toptext {
+    font-size: 30px;
+    color: rgb(24, 32, 95);
+}
+.text {
+    width: 700px;
+    font-size: 20px;
+    color: rgb(24, 32, 95);
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 150px;
+    width: 300px;
+    height: 220px;
+}
+
+.image {
+    width: 300px;
+    height: 220px;
+    border-radius: 0px;
+}
